@@ -1,0 +1,136 @@
+.header{
+    background-color: rgb(247, 241, 200);
+    height: 100px;
+}
+body{
+    margin: 0;
+}
+.header img{
+    height: 100px;
+    width: auto;
+    float: left;
+}
+.header a {
+    float: right;
+    color: rgb(126, 133, 99);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-family: 'pacifico', cursive;
+}
+.active{
+    background-color: rgb(214, 210, 184);
+}
+.header a:hover{
+    background-color: rgb(214, 210, 184);
+}
+.contact-section {
+    padding: 10px;
+    margin: 0px auto;
+    float: left;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: 'pacifico', cursive;
+}
+
+.contact-section h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-section form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-section form input[type="submit"] {
+    background-color: rgb(247, 241, 200);
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-family: 'pacifico', cursive;
+}
+
+.contact-section form input[type="submit"]:hover {
+    background-color: rgb(214, 210, 184);;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+  .contact-info {
+    margin-top: 500px;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .contact-info h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 8px;
+  }
+  
+  .social-media-list {
+    list-style-type: none;
+    padding: 0;
+    font-family: system-ui;
+  }
+  
+  .social-media-list li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .social-media-list a:hover {
+    color: #007bff;
+  }
+  .footer {
+    background-color: rgb(247, 241, 200);
+    padding: 10px 0;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 40px;
+    height: 500px;
+    font-family: system-ui;
+  
+  }

@@ -1,0 +1,144 @@
+.judulkonten2{
+    text-align: center;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 2%;
+}
+.imghome{
+width: 100%;
+height: auto;
+background-color: transparent;
+
+}
+.header{
+background-color: rgb(247, 241, 200);
+height: 100px;
+}
+body{
+margin: 0;
+}
+.header img{
+height: 100px;
+width: auto;
+float: left;
+}
+.header a {
+float: right;
+color: rgb(126, 133, 99);
+text-align: center;
+padding: 12px;
+text-decoration: none;
+font-size: 20px;
+line-height: 25px;
+border-radius: 4px;
+margin-top: 25px;
+font-weight: bold;
+font-family: 'pacifico', cursive;
+}
+.active{
+background-color: rgb(214, 210, 184);
+}
+.header a:hover{
+background-color: rgb(214, 210, 184);
+}
+  .about-section {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(247, 241, 200);
+    color: black;
+    font-family: 'pacifico', cursive;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(247, 241, 200);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  .about-section:hover{
+    background-color: rgb(214, 210, 184);
+  }
+.slideshow {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.slide-radio {
+  display: none;
+}
+
+.slide-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slide-btn {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #555;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.slide-btn:hover {
+  background-color: #888;
+}
+
+#slide1:checked ~ .slides { transform: translateX(0%); }
+#slide2:checked ~ .slides { transform: translateX(-100%); }
+#slide3:checked ~ .slides { transform: translateX(-200%); }
+.beginnings {
+  font-family: 'pacifico', cursive;
+}
+.footer {
+  background-color: rgb(247, 241, 200);
+  padding: 10px 0;
+  text-align: center;
+  font-family: 'pacifico', cursive;
+}
